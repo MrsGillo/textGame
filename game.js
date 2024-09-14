@@ -108,11 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 image: "img/image01.jpg",
                 options: [
                     {
-                        optionText: "Du geniesst den Moment, schliesst deine Augen wieder und schlummerst weiter.",
-                        showThisOption: () => true,
-                        nextScene: 1 
-                    },
-                    {
                         optionText: "Du stehst auf, streckst dich einmal durch und gehst Richtung Süden.",
                         showThisOption: () => true,
                         nextScene: 2
@@ -165,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 id: 4,
-                sceneDescription: "Auf deiner Reise kommst du an einem Händler vorbei, der seine Laden scheinbar innerhalb eines Baumes aufgebaut hat.",
+                sceneDescription: "Auf deiner Reise kommst du an einem Händler vorbei, der seinen Laden scheinbar innerhalb eines Baumes aufgebaut hat.",
                 image: "img/image04.jpg",
                 options: [
                     {
@@ -186,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 id: 5,
-                sceneDescription: "Du kommst an eine Felsklippe und siehst einen Weg, der nach unten führt. Eine Brücke überquert den Fluss und ein Weg zu einem riesigen Schloss ist zu sehen. Du machst dich auf den Weg zum Schloss und als du kurz vor dem Eingangstor stehst, hörts du ein Knurren und Fauchen. Du kennst dieses Geräusch, es ist unverkennbar ein Drachen, der dieses Schloss zu seinem Zuhause gemacht hat.",
+                sceneDescription: "Du kommst an eine Felsklippe und siehst einen Weg, der nach unten führt. Eine Brücke überquert den Fluss und ein Weg zu einem riesigen Schloss ist zu sehen. Du machst dich auf den Weg zum Schloss und als du kurz vor dem Eingangstor stehst, hörst du ein Knurren und Fauchen. Du kennst dieses Geräusch, es ist unverkennbar ein Drachen, der dieses Schloss zu seinem Zuhause gemacht hat.",
                 image: "img/image05.jpg",
                 options: [
                     {
@@ -269,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     },
                     {
                         optionText: "Du schwingst dein Schwert und versuchst, es in die frische Wunde zu rammen.",
-                        showThisOption: () => true,
+                        showThisOption: () => inventory.sword,
                         nextScene: 0
                     }
                 ]
